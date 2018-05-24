@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/selenium-api-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/selenium-chrome-driver-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/selenium-remote-driver-2.53.1.jar"/>
+	<classpathentry kind="lib" path="D:/My Data Backup/Learning_Selenium/Crossbrowser_v1/Crossbrowser/lib/selenium-server-standalone-3.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

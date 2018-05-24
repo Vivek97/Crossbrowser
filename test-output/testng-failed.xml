@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="1" name="ChromeTest(failed)" parallel="tests">
+    <classes>
+      <class name="parallelTest.CrossBrowserScript">
+        <methods>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="1" name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="parallelTest.CrossBrowserScript">
+        <methods>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="1" name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="parallelTest.CrossBrowserScript">
+        <methods>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
